@@ -15,6 +15,18 @@ fill footer and hero #2F303A*/
   --footer-adress: rgba(255, 255, 255, 0.6);
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -70,7 +82,12 @@ body {
 .site-nav .nav.current {
   color: var(--accent-color);
 }
-
+.header-flex,
+.header,
+.site-nav,
+.header-tel-mail {
+  display: flex;
+}
 .header-link-mail {
   font-weight: 500;
   color: var(--second-text-color);
@@ -112,12 +129,16 @@ body {
   font-style: normal;
 }
 .adress-map {
+  margin-top: 20px;
+  margin-bottom: 9px;
   color: var(--main-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 .adress-mail {
+  margin-bottom: 9px;
   font-style: normal;
   color: var(--footer-adress);
   font-size: 14px;
@@ -142,6 +163,7 @@ body {
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 30px;
+  /* padding: 200 452 280 452; */
   background-color: rgb(77, 57, 57);
 }
 .btn-hero {
@@ -157,9 +179,14 @@ body {
 .section-team {
   background-color: #f5f4fa;
 }
+.about-title-text {
+  display: flex;
+}
+
 .about-title {
   margin-top: 0;
   margin-bottom: 10px;
+  padding-top: 94px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -175,25 +202,51 @@ body {
   letter-spacing: 0.03em;
 }
 .section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
   font-style: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
 }
+.section-img {
+  display: flex;
+}
+
+.list-people {
+  display: flex;
+}
 .section-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-style: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .section-descrp {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--second-text-color);
   font-style: normal;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 /*--------------------------- portfolio.html---------------------------- */
+.projects-btn {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+}
+.section-photo {
+  display: flex;
+  flex-wrap: wrap;
+}
 .button-link {
   border-radius: 4px;
   padding: 6px 22px;
@@ -215,12 +268,16 @@ body {
 }
 
 .project-title {
+  margin-top: 0;
+  margin-bottom: 4px;
   font-style: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .projects-text {
+  margin-top: 0;
+  margin-bottom: 20px;
   color: var(--second-text-color);
   font-style: 400;
   font-size: 16px;
