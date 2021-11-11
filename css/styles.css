@@ -1,0 +1,229 @@
+/* hero #ffffff */
+/* #212121 section title */
+/* text #757575 
+button color #2196F3 and header nav 
+footer #ffffff 60%
+fill footer and hero #2F303A*/
+/* font roboto */
+
+:root {
+  --primery-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --adress-color: gba(255, 255, 255, 0.6);
+  --main-color: #ffffff;
+  --footer-adress: rgba(255, 255, 255, 0.6);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: var(--primery-text-color);
+  background-color: var(--main-color);
+  font-size: 16px;
+}
+/* -------------------------------HEADER--------------------------------- */
+.logo {
+  color: var(--primery-text-color);
+  font-family: raleway;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-blu {
+  color: var(--accent-color);
+}
+
+.site-nav .nav {
+  font-weight: 500;
+  color: var(--primery-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .nav:hover,
+.site-nav .nav:focus {
+  color: var(--accent-color);
+}
+.site-nav .nav.current {
+  color: var(--accent-color);
+}
+
+.header-link-mail {
+  font-weight: 500;
+  color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link-mail:hover,
+.header-link-mail:focus {
+  color: var(--accent-color);
+}
+.header-link-tel {
+  font-weight: 500;
+  color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link-tel:hover,
+.header-link-tel:focus {
+  color: var(--accent-color);
+}
+/* -----------------------------FOOTER---------------------------------- */
+.footer {
+  background-color: #2f303a;
+}
+.logo-white {
+  color: var(--main-color);
+}
+.footer-logo {
+  color: var(--primery-text-color);
+  font-family: raleway;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer-adress {
+  font-style: normal;
+}
+.adress-map {
+  color: var(--main-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.adress-mail {
+  font-style: normal;
+  color: var(--footer-adress);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.adress-mob {
+  font-style: normal;
+  color: var(--footer-adress);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*------------------------------- index.html------------------------------ */
+.hero {
+  text-align: center;
+}
+.hero-title {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-color: rgb(77, 57, 57);
+}
+.btn-hero {
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.87;
+  border-radius: 4px;
+  padding: 10px 32px;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.about-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.about-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.section-title {
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.section-name {
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.section-descrp {
+  color: var(--second-text-color);
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+/*--------------------------- portfolio.html---------------------------- */
+.button-link {
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.button-link:hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.button-link:focus {
+  background-color: var(--accent-color);
+}
+
+.project-title {
+  font-style: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-text {
+  color: var(--second-text-color);
+  font-style: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
