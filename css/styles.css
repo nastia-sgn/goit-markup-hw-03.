@@ -57,6 +57,13 @@ body {
   background-color: var(--main-color);
   font-size: 16px;
 }
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* -------------------------------HEADER--------------------------------- */
 .logo {
   color: var(--primery-text-color);
@@ -95,9 +102,13 @@ body {
 .header-tel-mail {
   margin-left: auto;
 }
+.header-padding {
+  padding: 32px;
+  border: 4px solid rgba(0, 0, 0, 0.25);
+}
 
-.header-item {
-  margin: 32px 25px;
+.header-item .nav {
+  padding: 32px 25px;
 }
 
 .header-item:last-child {
@@ -138,6 +149,8 @@ body {
   color: var(--main-color);
 }
 .footer-logo {
+  padding-top: 60px;
+  margin-bottom: 20px;
   display: block;
   color: var(--primery-text-color);
   font-family: raleway;
@@ -185,16 +198,21 @@ body {
   text-align: center;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 200px;
+  padding-left: 282px;
+
   color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  margin-top: 0;
-  margin-bottom: 30px;
-  /* padding: 200 452 280 452; */
   background-color: rgb(77, 57, 57);
 }
 .btn-hero {
+  width: 200px;
   cursor: pointer;
   color: #ffffff;
   font-weight: 700;
@@ -209,7 +227,7 @@ body {
 }
 .about-title-text {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .about-title {
@@ -223,6 +241,7 @@ body {
   letter-spacing: 0.03em;
 }
 .about-text {
+  /* margin-right: 30px; */
   width: 270px;
   margin-top: 0;
   margin-bottom: 0;
@@ -231,6 +250,13 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.about-item {
+  margin-right: 30px;
+}
+.about-item:last-child {
+  margin-right: 0;
+}
+
 .section-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -244,6 +270,9 @@ body {
 }
 .section-img {
   display: flex;
+}
+.section-list:not(:last-child) {
+  margin-right: 30px;
 }
 
 .list-people {
