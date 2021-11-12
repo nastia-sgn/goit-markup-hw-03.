@@ -314,7 +314,9 @@ img {
   margin-bottom: 34px;
   justify-content: center;
 }
-
+.button-item {
+  margin-right: 9px;
+}
 .button-link {
   border-radius: 4px;
   padding: 6px 22px;
