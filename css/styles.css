@@ -382,12 +382,14 @@ img {
   width: calc(100% / 3 - 30px);
 }
 
-.card .div-text {
+.div-text {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
 }
 
-.card .project-list {
-  border: 1px solid#eeeeee;
+.project-list {
+  border-right: 1px solid#eeeeee;
+  border-bottom: 1px solid#eeeeee;
+  border-left: 1px solid#eeeeee;
 }
