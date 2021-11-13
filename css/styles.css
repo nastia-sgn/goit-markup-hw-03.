@@ -374,6 +374,12 @@ img {
 margin-bottom: 94px;
 }
 
+.section-photo {
+  margin-right: -30px; 
+  margin-bottom: -30px;
+} 
+
+
 .section-photo .project-list {
   width: calc(100% / 3 - 30px);
 }
