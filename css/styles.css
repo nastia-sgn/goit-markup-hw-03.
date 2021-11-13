@@ -315,6 +315,7 @@ img {
   justify-content: center;
 }
 .button-item {
+  padding-top: 94px;
   margin-right: 9px;
 }
 .button-link {
