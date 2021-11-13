@@ -17,31 +17,27 @@
     <!--шапка сайта-->
 
     <header class="header-padding">
-      <div class="conteiner">
-        <div class="header-flex">
-          <nav class="site-nav">
-            <a href="/" class="logo link"><span class="logo-blu">Web</span>Studio</a>
-            <ul class="header">
-              <li class="header-item list">
-                <a href="./index.html" class="nav link current">Студия</a>
-              </li>
-              <li class="header-item list">
-                <a href="./portfolio.html" class="nav link">Портфолио</a>
-              </li>
-              <li class="header-item list"><a href="" class="nav link">Контакты</a></li>
-            </ul>
-          </nav>
-          <ul class="header-tel-mail">
-            <li class="header-item-mail list">
-              <a href="mailto:info@devstudio.com" class="header-link-mail link"
-                >info@devstudio.com</a
-              >
+      <div class="conteiner header-flex">
+        <nav class="site-nav">
+          <a href="/" class="logo link"><span class="logo-blu">Web</span>Studio</a>
+          <ul class="header">
+            <li class="header-item list">
+              <a href="./index.html" class="nav link current">Студия</a>
             </li>
-            <li class="header-item-mail list">
-              <a href="tel:+380961111111" class="header-link-tel link">+38 096 111 11 11</a>
+            <li class="header-item list">
+              <a href="./portfolio.html" class="nav link">Портфолио</a>
             </li>
+            <li class="header-item list"><a href="" class="nav link">Контакты</a></li>
           </ul>
-        </div>
+        </nav>
+        <ul class="header-tel-mail">
+          <li class="header-item-mail list">
+            <a href="mailto:info@devstudio.com" class="header-link-mail link">info@devstudio.com</a>
+          </li>
+          <li class="header-item-mail list">
+            <a href="tel:+380961111111" class="header-link-tel link">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -54,7 +50,7 @@
         </div>
       </section>
       <!--чем мы занимаемся-->
-      <section class="about">
+      <section class="section">
         <div class="conteiner">
           <h2 class="visually-hidden">наши привелегии</h2>
           <ul class="about-title-text">
@@ -86,7 +82,7 @@
         </div>
       </section>
       <!--чем мы занимаемся2-->
-      <section>
+      <section class="section img-section">
         <div class="conteiner">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="section-img">
@@ -103,29 +99,37 @@
         </div>
       </section>
       <!--Наша команда-->
-      <section class="section-team">
+      <section class="section section-team">
         <div class="conteiner">
           <h2 class="section-title">Наша команда</h2>
           <ul class="list-people">
             <li class="section-list list">
               <img src="./images/img4.jpg" alt="фотография мужчины" width="270" />
-              <h3 class="section-name">Игорь Демьяненко</h3>
-              <p class="section-descrp">Product Designer</p>
+              <div class="about-people">
+                <h3 class="section-name">Игорь Демьяненко</h3>
+                <p class="section-descrp">Product Designer</p>
+              </div>
             </li>
             <li class="section-list list">
               <img src="./images/img5.jpg" alt="фотография женщины" width="270" />
-              <h3 class="section-name">Ольга Репина</h3>
-              <p class="section-descrp">Frontend Developer</p>
+              <div class="about-people">
+                <h3 class="section-name">Ольга Репина</h3>
+                <p class="section-descrp">Frontend Developer</p>
+              </div>
             </li>
             <li class="section-list list">
               <img src="./images/img6.jpg" alt="фотография мужчины" width="270" />
-              <h3 class="section-name">Николай Тарасов</h3>
-              <p class="section-descrp">Marketing</p>
+              <div class="about-people">
+                <h3 class="section-name">Николай Тарасов</h3>
+                <p class="section-descrp">Marketing</p>
+              </div>
             </li>
             <li class="section-list list">
               <img src="./images/img7.jpg" alt="фотография мужчины" width="270" />
-              <h3 class="section-name">Михаил Ермаков</h3>
-              <p class="section-descrp">UI Designer</p>
+              <div class="about-people">
+                <h3 class="section-name">Михаил Ермаков</h3>
+                <p class="section-descrp">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
