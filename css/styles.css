@@ -366,7 +366,7 @@ img {
   margin-bottom: 30px;
 }
 
-.project-list:not(:last-child(3)) {
+.project-list:not(:last-child) {
   margin-right: 0;
 }
 
